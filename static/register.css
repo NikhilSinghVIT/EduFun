@@ -1,0 +1,97 @@
+
+
+body {
+    background-color: white;
+  
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  .leftcontent {
+    z-index: 2;
+    height: calc(100% - 120px);
+    width: 100%;
+    margin-top: 60px;
+    margin-left: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+  }
+  .sidebar h3{
+      margin-top: 5%;
+  }
+  .ltitle {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 200;
+  }
+  
+  .lcontent {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 200;
+  }
+  
+  .sidebar {
+    background-color: rgb(59, 202, 107);
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 100;
+    padding-top: 60px;
+  }
+  
+  .rtitle {
+    color: white;
+    font-size: 36px;
+    font-weight: 200;
+    padding-left: 320px;
+    margin-top: 70%;
+  }
+  .sidebar form{
+      margin-top: 50px;
+  }
+  
+  .textinput {
+    margin-left: 250px;
+    height: 40px;
+    border-width: 0;
+    border-style: solid;
+    border-color: white;
+    border-left-width: 5px;
+    background-color: #eee;
+    width: 270px;
+    padding-left: 10px;
+    outline: 0;
+    border-radius: 500px;
+  }
+  
+  .textinput:focus {
+    background-color: #f4f4f4;
+  }
+  
+  .submit {
+    background-color: black;
+    height: 50px;
+    width: 50px;
+    border-style: solid;
+    border-width: 0;
+    border-radius: 100px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: black ;
+    outline: 0;
+    cursor: pointer;
+  }
+  #doodle2
+  {
+      width: 40%;
+      margin-top: 6em;
+  }

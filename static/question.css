@@ -1,0 +1,90 @@
+body {
+    overflow-x: hidden;
+    font-family: 'Quicksand', sans-serif;
+  }
+  
+  #sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+    background-color: white;
+  }
+  .fa-user-circle
+  {
+    height:90px;
+  }
+  .bg-light
+  {
+    background-color: white;
+  }
+  #sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+  }
+  
+  #sidebar-wrapper .list-group {
+    width: 15rem;
+    text-align: center;
+  }
+  
+  #page-content-wrapper {
+    min-width: 100vw;
+    background-color: #F2B6AC;
+  }
+  
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+  }
+  
+  @media (min-width: 768px) {
+    #sidebar-wrapper {
+      margin-left: 0;
+    }
+  
+    #page-content-wrapper {
+      min-width: 0;
+      width: 100%;
+    }
+  
+    #wrapper.toggled #sidebar-wrapper {
+      margin-left: -15rem;
+    }
+  }
+  .list-group-item:hover
+  {
+    color: #00fbff;
+  }
+  .list-group-item
+  {
+    border-color: white;
+  }
+  #doodle3
+  {
+    float: right;
+    height: 400px;
+    width: 400px;
+    margin-top: 0.05em;
+    margin-left: 500px;
+    
+  }
+.container-fluid h2
+{
+    color: white;
+    font-size: 50px;
+}
+#question
+{
+    margin-top: 150px;
+    color: white
+}
+.radio
+{
+    margin-top: 10%;
+}
+.card:hover{
+    background-color: #F2B6AC;
+    color: white;
+}
